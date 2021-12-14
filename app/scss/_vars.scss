@@ -1,0 +1,42 @@
+// COLORS
+$default: #4B5157;
+$bg: #E5E5E5;
+$dark-bg: #262D33;
+$btn: #4592FF;
+$gray: #939699;
+
+%btn {
+	display: inline-block;
+	font-weight: 900;
+	color: #fff;
+	background-color: $btn;
+	padding: 10px 45px 10px 20px;
+	border-radius: 20px;
+	position: relative;
+	border: none;
+	cursor: pointer;
+	&::after {
+		content: '';
+		width: 15px;
+		height: 8px;
+		position: absolute;
+		top: 53%;
+		right: 20px;
+		background: url(../images/arrow.svg) no-repeat;
+		transform: translateY(-50%);
+		transition: all .3s;
+	}
+	&:hover {
+		&::after {
+			right: 17px;
+		}
+	}
+}
+
+%title {
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 25px;
+	color: $dark-bg;
+}

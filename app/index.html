@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Universal</title>
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+</head>
+
+<body>
+
+	<!-- HEADER -->
+	<header class="header header--bg">
+		<div class="container">
+			<div class="header__top">
+				<!-- LOGO -->
+				<a class="logo" href="#">
+					<img class="logo__img" src="images/logo.svg" alt="logo">
+				</a>
+				<!-- MENU -->
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a class="menu__link" href="#banner">
+								Статьи
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#news">
+								Новости
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#hot">
+								Горячее
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#footer">
+								HTML
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#footer">
+								CSS
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#footer">
+								JavaScript
+							</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#footer">
+								Web Design
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- MENU BURGER -->
+				<div class="menu-burger">
+					<span></span>
+
+				</div>
+				<!-- BUTTON-APPLICATION -->
+				<a class="btn-application" href="#" data-modal="#modal">
+					ОСТАВИТЬ ЗАЯВКУ
+				</a>
+			</div>
+			<div class="header__main">
+				<!-- TABS CONTENT -->
+				<div class="tabs-content">
+					<div class="tabs-content__item tabs-content__item--active" id="tab1"
+						style="background-image: url(images/tab-bg/1.jpg);">
+						<div class="tabs-content__user">
+							<img class="tabs-content__user-avatar" src="images/avatars/1.jpg" alt="avatar">
+							<div class="tabs-content__box">
+								<div class="tabs-content__name">
+									Давид Гуров
+								</div>
+								<div class="tabs-content__prof">
+									Разработчик
+								</div>
+							</div>
+						</div>
+						<div class="tabs-content__text">
+							<div class="tabs-content__suptitle">
+								Javascript
+							</div>
+							<h1 class="tabs-content__title">
+								Расширение Chrome защищает от атак
+							</h1>
+							<a class="tabs-content__btn" href="page.html">
+								Читать далее
+							</a>
+						</div>
+					</div>
+					<div class="tabs-content__item" id="tab2" style="background-image: url(images/tab-bg/2.jpg);">
+						<div class="tabs-content__user">
+							<img class="tabs-content__user-avatar" src="images/avatars/2.jpg" alt="avatar">
+							<div class="tabs-content__box">
+								<div class="tabs-content__name">
+									Артем Гусев
+								</div>
+								<div class="tabs-content__prof">
+									Разработчик
+								</div>
+							</div>
+						</div>
+						<div class="tabs-content__text">
+							<div class="tabs-content__suptitle">
+								Javascript
+							</div>
+							<h1 class="tabs-content__title">
+								На каком стандарте писать скрипты, если я фрилансер
+							</h1>
+							<a class="tabs-content__btn" href="page.html">
+								Читать далее
+							</a>
+						</div>
+					</div>
+					<div class="tabs-content__item" id="tab3" style="background-image: url(images/tab-bg/3.jpg);">
+						<div class="tabs-content__user">
+							<img class="tabs-content__user-avatar" src="images/avatars/3.jpg" alt="avatar">
+							<div class="tabs-content__box">
+								<div class="tabs-content__name">
+									Эрик Усманов
+								</div>
+								<div class="tabs-content__prof">
+									Разработчик
+								</div>
+							</div>
+						</div>
+						<div class="tabs-content__text">
+							<div class="tabs-content__suptitle">
+								html
+							</div>
+							<h1 class="tabs-content__title">
+								Правильно вставляем картинку на сайт для Retina дисплея
+							</h1>
+							<a class="tabs-content__btn" href="page.html">
+								Читать далее
+							</a>
+						</div>
+					</div>
+					<div class="tabs-content__item" id="tab4" style="background-image: url(images/tab-bg/4.jpg);">
+						<div class="tabs-content__user">
+							<img class="tabs-content__user-avatar" src="images/avatars/4.jpg" alt="avatar">
+							<div class="tabs-content__box">
+								<div class="tabs-content__name">
+									Юлия Иванова
+								</div>
+								<div class="tabs-content__prof">
+									Дизайнер
+								</div>
+							</div>
+						</div>
+						<div class="tabs-content__text">
+							<div class="tabs-content__suptitle">
+								Web design
+							</div>
+							<h1 class="tabs-content__title">
+								ТОП-10 плагинов для Figma
+							</h1>
+							<a class="tabs-content__btn" href="page.html">
+								Читать далее
+							</a>
+						</div>
+					</div>
+					<div class="tabs-content__item" id="tab5" style="background-image: url(images/tab-bg/5.jpg);">
+						<div class="tabs-content__user">
+							<img class="tabs-content__user-avatar" src="images/avatars/5.jpg" alt="avatar">
+							<div class="tabs-content__box">
+								<div class="tabs-content__name">
+									Кирилл Давыдов
+								</div>
+								<div class="tabs-content__prof">
+									Разработчик
+								</div>
+							</div>
+						</div>
+						<div class="tabs-content__text">
+							<div class="tabs-content__suptitle">
+								CSS
+							</div>
+							<h1 class="tabs-content__title">
+								Возможности CSS Grid Layout , которые уже можно применять
+							</h1>
+							<a class="tabs-content__btn" href="page.html">
+								Читать далее
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- TABS -->
+				<div class="tabs">
+					<h3 class="tabs__title">
+						Рекомендуем
+					</h3>
+					<a class="tabs__item tabs__item--active" href="#tab1">
+						<h4 class="tabs__item-title" style="color: #3BBDC4;">
+							css
+						</h4>
+						<p class="tabs__item-text">
+							Как использовать CSS float после того, как вышел Flexbox
+						</p>
+					</a>
+					<a class="tabs__item" href="#tab2">
+						<h4 class="tabs__item-title" style="color: #6E99AE;">
+							javascript
+						</h4>
+						<p class="tabs__item-text">
+							На каком стандарте писать скрипты, если я фрилансер
+						</p>
+					</a>
+					<a class="tabs__item" href="#tab3">
+						<h4 class="tabs__item-title" style="color: #AC8EE3;">
+							html
+						</h4>
+						<p class="tabs__item-text">
+							Правильно вставляем картинку на сайт для Retina дисплея
+						</p>
+					</a>
+					<a class="tabs__item" href="#tab4">
+						<h4 class="tabs__item-title" style="color: #FFA34D;">
+							Web design
+						</h4>
+						<p class="tabs__item-text">
+							ТОП-10 плагинов для Figma
+						</p>
+					</a>
+					<a class="tabs__item" href="#tab5">
+						<h4 class="tabs__item-title" style="color: #3DC47E;">
+							css
+						</h4>
+						<p class="tabs__item-text">
+							Возможности CSS Grid Layout , которые уже можно применять
+						</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- BANNER -->
+	<div class="banner" id="banner">
+		<div class="container">
+			<div class="banner__inner">
+				<div class="banner__item">
+					<a class="banner__title" href="#">
+						25 способов настроить слайдер
+					</a>
+					<img src="images/banner/1.jpg" alt="banner-photo">
+				</div>
+				<div class="banner__item">
+					<a class="banner__title" href="#">
+						Главные фишки фрилансера
+					</a>
+					<img src="images/banner/2.jpg" alt="banner-photo">
+				</div>
+				<div class="banner__item">
+					<a class="banner__title" href="#">
+						Техника управлеия временем “Помодоро”
+					</a>
+					<img src="images/banner/3.jpg" alt="banner-photo">
+				</div>
+				<div class="banner__item">
+					<a class="banner__title" href="#">
+						Что нужно знать о Git и GitHub
+					</a>
+					<img src="images/banner/4.jpg" alt="banner-photo">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ARTICLES -->
+	<div class="articles">
+		<div class="container">
+			<div class="articles__inner">
+				<div class="articles__item article">
+					<div class="article__wrap">
+						<div class="article__suptitle">
+							Статьи
+						</div>
+						<a class="article__title" href="#">
+							Вам предложили работу мечты, но вы не можете...
+						</a>
+						<p class="article__text">
+							Как поступить, если хочется пойти на работу мечты, но она находится в другом городе. У вас семья и
+							переезжать вы не готовы.
+						</p>
+					</div>
+					<div class="article__box">
+						<img class="article__avatar" src="images/avatars/comment-avatar.jpg" alt="avatar">
+						<div class="article__name">
+							Инна Квашова:
+						</div>
+						<p class="article__comment">
+							Каждый разработчик мечтает переехать в...
+						</p>
+						<div class="article__num">
+							342
+						</div>
+					</div>
+				</div>
+				<div class="articles__item popular">
+					<div class="popular__inner">
+						<div class="popular__tag tag">
+							Популярное
+						</div>
+						<div class="popular__suptitle">
+							Web design
+						</div>
+						<a class="popular__title" href="#">
+							Где взять реальные проекты для портфолио
+						</a>
+						<div class="popular__box">
+							<img class="popular__avatar" src="images/avatars/comment-avatar.jpg" alt="avatar">
+							<div class="popular__wrap">
+								<div class="popular__name">
+									Сара Женникова
+								</div>
+								<div class="popular__info">
+									<div class="popular__date">
+										25 сентября
+									</div>
+									<div class="popular__comment">
+										16
+									</div>
+									<div class="popular__like">
+										832
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="articles__item download">
+					<div class="download__title">
+						Чек-лист сдачи верстки вашему заказчику
+					</div>
+					<div class="download__size">
+						PDF, 125 Мб
+					</div>
+					<a class="download__link" download href="test.txt">
+						Скачать
+					</a>
+				</div>
+				<div class="articles__item piece">
+					<img class="piece__img" src="images/acticles-img.jpg" alt="">
+					<a class="piece__title" href="#">
+						20+ инструментов для js-разработчика
+					</a>
+				</div>
+				<div class="articles__item">
+					<div class="articles-item">
+						<a class="articles-item__title" href="#">
+							Удачные референсы
+						</a>
+						<p class="articles-item__text">
+							Как выбрать подходящие исходники, если вы ищите идею для интерфейса
+						</p>
+						<div class="articles-item__date">
+							15 октября
+						</div>
+					</div>
+				</div>
+				<div class="articles__item">
+					<div class="articles-item">
+						<a class="articles-item__title" href="#">
+							Заказчики — мудаки?
+						</a>
+						<p class="articles-item__text">
+							Как защититься от бесконечных правок на этапе сдачи проекта
+						</p>
+						<div class="articles-item__date">
+							20 октября
+						</div>
+					</div>
+				</div>
+				<div class="articles__item tags">
+					<h5 class="tags__title">
+						теги
+					</h5>
+					<div class="tags__inner">
+						<a class="tags__item" href="#">
+							Forest
+						</a>
+						<a class="tags__item" href="#">
+							Hover tag
+						</a>
+						<a class="tags__item" href="#">
+							Nature
+						</a>
+						<a class="tags__item" href="#">
+							Recreation
+						</a>
+						<a class="tags__item" href="#">
+							Tent
+						</a>
+						<a class="tags__item" href="#">
+							Fresh air
+						</a>
+						<a class="tags__item" href="#">
+							Summer
+						</a>
+						<a class="tags__item" href="#">
+							Mountains
+						</a>
+						<a class="tags__item" href="#">
+							Wood
+						</a>
+						<a class="tags__item" href="#">
+							Map
+						</a>
+						<a class="tags__item" href="#">
+							Sun
+						</a>
+						<a class="tags__item" href="#">
+							Wild animals
+						</a>
+						<a class="tags__item" href="#">
+							Night
+						</a>
+					</div>
+				</div>
+				<div class="articles__item">
+					<div class="articles-item">
+						<a class="articles-item__title" href="#">
+							Работа без стресса — это...
+						</a>
+						<p class="articles-item__text">
+							Обустройте свое рабочее место так, чтобы не испытывать раздражение от скрипучего...
+						</p>
+						<div class="articles-item__date">
+							26 октября
+						</div>
+					</div>
+				</div>
+				<div class="articles__item">
+					<div class="articles-item">
+						<a class="articles-item__title" href="#">
+							Бесплатные методы...
+						</a>
+						<p class="articles-item__text">
+							Как не платить за софт, если у вас есть студенческий билет высшего учебного заведения
+						</p>
+						<div class="articles-item__date">
+							13 октября
+						</div>
+					</div>
+				</div>
+				<div class="articles__item social">
+					<h5 class="social__title">
+						Наши соцсети
+					</h5>
+					<div class="social__inner">
+						<a class="social__link" href="https://ru-ru.facebook.com/" target="_blank">
+							<img class="social__img" src="images/facebook.svg" alt="facebook-icon">
+						</a>
+						<a class="social__link" href="https://twitter.com/?lang=ru" target="_blank">
+							<img class="social__img" src="images/twitter.svg" alt="twitter-icon">
+						</a>
+						<a class="social__link" href="https://www.youtube.com/" target="_blank">
+							<img class="social__img" src="images/youtube.svg" alt="youtube-icon">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- NEWS-BANNER -->
+	<div class="news-banner">
+		<div class="container">
+			<h3 class="news-banner__title">
+				Расследование недели: сколько зарабатывает веб разработчик в Москве
+			</h3>
+			<a class="news-banner__btn" href="page.html">
+				Читать статью
+			</a>
+		</div>
+	</div>
+
+	<!-- NEWS -->
+	<div class="news" id="news">
+		<div class="container">
+			<div class="news__inner">
+				<div class="news__wrapper">
+					<div class="news__item">
+						<div class="news__img">
+							<img src="images/news/1.jpg" alt="news-img">
+						</div>
+						<div class="news__content">
+							<div class="news__header">
+								<div class="news__suptitle news__suptitle--news">
+									Новости
+								</div>
+								<div class="news__bookmark">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M5 1H15C16.1046 1 17 1.89543 17 3V19L10.0949 14L3 19V3C3 1.89543 3.89543 1 5 1Z"
+											fill="#BCBFC2" />
+									</svg>
+								</div>
+							</div>
+							<a class="news__title" href="#">
+								Новый налоговый режим для фрилансеров — налог на проф. доход
+							</a>
+							<p class="news__text">
+								Руководитель налоговой заявил, что этот режим “поможет выйти из тени” тем, кто работает
+								неофициально. Разобрались, как работает режим и кому он подходит, а кому нет.
+							</p>
+							<div class="info">
+								<div class="info__date">
+									6 августа
+								</div>
+								<div class="info__comment">
+									342
+								</div>
+								<div class="info__like">
+									830
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="news__item">
+						<div class="news__img">
+							<img src="images/news/2.jpg" alt="news-img">
+						</div>
+						<div class="news__content">
+							<div class="news__header">
+								<div class="news__suptitle news__suptitle--view">
+									Мнения
+								</div>
+								<div class="news__bookmark">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M5 1H15C16.1046 1 17 1.89543 17 3V19L10.0949 14L3 19V3C3 1.89543 3.89543 1 5 1Z"
+											fill="#BCBFC2" />
+									</svg>
+								</div>
+							</div>
+							<a class="news__title" href="#">
+								Платные курсы — это не быстрый способ выйти на нужный уровень
+							</a>
+							<p class="news__text">
+								Среди новичков распространено мнение, что если пройти какой-то крутой онлайн-курс, то это решит
+								все проблемы. Но они не берут в расчет, что лучшее обучение — это практика.
+							</p>
+							<div class="info">
+								<div class="info__date">
+									7 октября
+								</div>
+								<div class="info__comment">
+									27
+								</div>
+								<div class="info__like">
+									129
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="news__item">
+						<div class="news__img">
+							<img src="images/news/3.jpg" alt="news-img">
+						</div>
+						<div class="news__content">
+							<div class="news__header">
+								<div class="news__suptitle news__suptitle--hot">
+									Горячее
+								</div>
+								<div class="news__bookmark">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M5 1H15C16.1046 1 17 1.89543 17 3V19L10.0949 14L3 19V3C3 1.89543 3.89543 1 5 1Z"
+											fill="#BCBFC2" />
+									</svg>
+								</div>
+							</div>
+							<a class="news__title" href="#">
+								Из-за ограничений стали недоступны серверы Telegram. К чему это может...
+							</a>
+							<p class="news__text">
+								Сегодня мы узнали, что серверы Telegram не доступны на территории России. Разобрались, чем это
+								грозит вам, если ваш бизнес зависит от этого мессенджера.
+							</p>
+							<div class="info">
+								<div class="info__date">
+									12 декабря
+								</div>
+								<div class="info__comment">
+									30
+								</div>
+								<div class="info__like">
+									284
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="news__item">
+						<div class="news__img">
+							<img src="images/news/4.jpg" alt="news-img">
+						</div>
+						<div class="news__content">
+							<div class="news__header">
+								<div class="news__suptitle news__suptitle--view">
+									Мнения
+								</div>
+								<div class="news__bookmark">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M5 1H15C16.1046 1 17 1.89543 17 3V19L10.0949 14L3 19V3C3 1.89543 3.89543 1 5 1Z"
+											fill="#BCBFC2" />
+									</svg>
+								</div>
+							</div>
+							<a class="news__title" href="#">
+								В вашем портфолио могут быть фейковые проекты, если вы сделали...
+							</a>
+							<p class="news__text">
+								Один из читателей предположил, что если в портфолио положить несуществующий проект, то ничего
+								страшного не произойдет. Он провел эксперимент и потенциальные заказчики...
+							</p>
+							<div class="info">
+								<div class="info__date">
+									20 июля
+								</div>
+								<div class="info__comment">
+									102
+								</div>
+								<div class="info__like">
+									1,293
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="news__item">
+						<div class="news__img">
+							<img src="images/news/5.jpg" alt="news-img">
+						</div>
+						<div class="news__content">
+							<div class="news__header">
+								<div class="news__suptitle news__suptitle--hot">
+									Горячее
+								</div>
+								<div class="news__bookmark">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M5 1H15C16.1046 1 17 1.89543 17 3V19L10.0949 14L3 19V3C3 1.89543 3.89543 1 5 1Z"
+											fill="#BCBFC2" />
+									</svg>
+								</div>
+							</div>
+							<a class="news__title" href="#">
+								Список стран, куда можно улететь
+							</a>
+							<p class="news__text">
+								Если вы приняли решение переехать в другую страну, чтобы найти там работу, сначала посмотрите на
+								список стран, который мы подготовили для вас. Внутри важная информация про...
+							</p>
+							<div class="info">
+								<div class="info__date">
+									22 октября
+								</div>
+								<div class="info__comment">
+									5
+								</div>
+								<div class="info__like">
+									82
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="news__item">
+						<div class="news__img">
+							<img src="images/news/6.jpg" alt="news-img">
+						</div>
+						<div class="news__content">
+							<div class="news__header">
+								<div class="news__suptitle news__suptitle--complit">
+									Подборки
+								</div>
+								<div class="news__bookmark">
+									<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M5 1H15C16.1046 1 17 1.89543 17 3V19L10.0949 14L3 19V3C3 1.89543 3.89543 1 5 1Z"
+											fill="#BCBFC2" />
+									</svg>
+								</div>
+							</div>
+							<a class="news__title" href="#">
+								Список Youtube каналов для тех, кто только начинает изучать разработку
+							</a>
+							<p class="news__text">
+								Мы собрали на одной странице кучу ссылок на полезные русскоязычные каналы, посвященные айти. Тут
+								можно найти видеоуроки, лекции и бесплатные курсы.
+							</p>
+							<div class="info">
+								<div class="info__date">
+									26 октября
+								</div>
+								<div class="info__comment">
+									101
+								</div>
+								<div class="info__like">
+									432
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sidebar">
+					<div class="sidebar__title">
+						Недавно опубликовано
+					</div>
+					<div class="sidebar__inner">
+						<div class="sidebar__item sidebar__item--1">
+							<img class="sidebar__img" src="images/sidebar/1.jpg" alt="">
+							<div class="sidebar__box">
+								<a class="sidebar__item-title" href="#">
+									Работа на удаленке, как это теперь
+								</a>
+								<div class="sidebar__publicate">
+									15 минут назад
+								</div>
+							</div>
+						</div>
+						<div class="sidebar__item sidebar__item--2">
+							<img class="sidebar__img" src="images/sidebar/2.jpg" alt="">
+							<div class="sidebar__box">
+								<a class="sidebar__item-title" href="#">
+									Для чего нужен Node.js и с чем...
+								</a>
+								<div class="sidebar__publicate">
+									32 минуты назад
+								</div>
+							</div>
+						</div>
+						<div class="sidebar__item sidebar__item--3">
+							<img class="sidebar__img" src="images/sidebar/3.jpg" alt="">
+							<div class="sidebar__box">
+								<a class="sidebar__item-title" href="#">
+									Работа в Google: собеседования и...
+								</a>
+								<div class="sidebar__publicate">
+									38 минут назад
+								</div>
+							</div>
+						</div>
+						<div class="sidebar__item sidebar__item--4">
+							<img class="sidebar__img" src="images/sidebar/4.jpg" alt="">
+							<div class="sidebar__box">
+								<a class="sidebar__item-title" href="#">
+									Переезд в Нью Йорк для работы по...
+								</a>
+								<div class="sidebar__publicate">
+									53 минуты назад
+								</div>
+							</div>
+						</div>
+						<div class="sidebar__item sidebar__item--5">
+							<img class="sidebar__img" src="images/sidebar/5.jpg" alt="">
+							<div class="sidebar__box">
+								<a class="sidebar__item-title" href="#">
+									Почему родители против того, чтобы...
+								</a>
+								<div class="sidebar__publicate">
+									1 час назад
+								</div>
+							</div>
+						</div>
+						<div class="sidebar__item sidebar__item--6">
+							<img class="sidebar__img" src="images/sidebar/6.jpg" alt="">
+							<div class="sidebar__box">
+								<a class="sidebar__item-title" href="#">
+									Прокрастинация: побороть отклады...
+								</a>
+								<div class="sidebar__publicate">
+									1 час назад
+								</div>
+							</div>
+						</div>
+						<div class="sidebar__item sidebar__item--7">
+							<img class="sidebar__img" src="images/sidebar/7.jpg" alt="">
+							<div class="sidebar__box">
+								<a class="sidebar__item-title" href="#">
+									Правки от заказчика могут быть...
+								</a>
+								<div class="sidebar__publicate">
+									2 часа назад
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="sidebar__more" href="#">
+						Read more
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- NEWS-BLOCK -->
+	<div class="news-block" id="hot">
+		<div class="container">
+			<div class="news-block__inner">
+				<div class="swiper-container news-slider">
+					<div class="swiper-wrapper news-slider__wrapper">
+
+						<div class="swiper-slide news-slider__slide"
+							style="background-image: url(images/news-slider-img.jpg);">
+							<div class="news-slider__tag tag">
+								Горячее
+							</div>
+							<div class="news-slider__author">
+								<img class="news-slider__img" src="images/avatars/news-avatar.jpg" alt="news-avatar">
+								<div class="news-slider__name">
+									Оксана Пушкина
+								</div>
+								<div class="news-slider__prof">
+									Фотограф
+								</div>
+							</div>
+							<h3 class="news-slider__title">
+								Выбор читателей: где удобнее работать фрилансеру
+							</h3>
+							<a class="news-slider__btn" href="#">
+								Смотреть фото
+							</a>
+						</div>
+
+						<div class="swiper-slide news-slider__slide"
+							style="background-image: url(images/news-slider-img.jpg);">
+							<div class="news-slider__tag tag">
+								Горячее
+							</div>
+							<div class="news-slider__author">
+								<img class="news-slider__img" src="images/avatars/news-avatar.jpg" alt="news-avatar">
+								<div class="news-slider__name">
+									Оксана Пушкина
+								</div>
+								<div class="news-slider__prof">
+									Фотограф
+								</div>
+							</div>
+							<h3 class="news-slider__title">
+								Выбор читателей: где удобнее работать фрилансеру
+							</h3>
+							<a class="news-slider__btn" href="#">
+								Смотреть фото
+							</a>
+						</div>
+
+						<div class="swiper-slide news-slider__slide"
+							style="background-image: url(images/news-slider-img.jpg);">
+							<div class="news-slider__tag tag">
+								Горячее
+							</div>
+							<div class="news-slider__author">
+								<img class="news-slider__img" src="images/avatars/news-avatar.jpg" alt="news-avatar">
+								<div class="news-slider__name">
+									Оксана Пушкина
+								</div>
+								<div class="news-slider__prof">
+									Фотограф
+								</div>
+							</div>
+							<h3 class="news-slider__title">
+								Выбор читателей: где удобнее работать фрилансеру
+							</h3>
+							<a class="news-slider__btn" href="#">
+								Смотреть фото
+							</a>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+
+				<div class="news-block__item career">
+					<div class="career__content">
+						<div class="career__suptitle">
+							Карьера
+						</div>
+						<h3 class="career__title">
+							Вопросы на собеседовании для джуна
+						</h3>
+						<p class="career__text">
+							Каверзные и не очень вопросы, которых боятся новички, когда идут на со/беседование
+						</p>
+						<a class="career__btn" href="page.html">
+							Читать далее
+						</a>
+					</div>
+				</div>
+				<div class="news-block__item news-block__item--1">
+					<div class="articles-item">
+						<a class="articles-item__title" href="#">
+							Работа без стресса — это...
+						</a>
+						<p class="articles-item__text">
+							Обустройте свое рабочее место так, чтобы не испытывать раздражение от скрипучего...
+						</p>
+						<div class="articles-item__date">
+							26 октября
+						</div>
+					</div>
+				</div>
+				<div class="news-block__item news-block__item--2">
+					<div class="articles-item">
+						<a class="articles-item__title" href="#">
+							Работа без стресса — это...
+						</a>
+						<p class="articles-item__text">
+							Обустройте свое рабочее место так, чтобы не испытывать раздражение от скрипучего...
+						</p>
+						<div class="articles-item__date">
+							26 октября
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="mailing">
+				<h2 class="mailing__title">
+					Подпишитесь на нашу рассылку
+				</h2>
+				<form class="mailing__form" action="#">
+					<input class="mailing__input" type="email" placeholder="Email">
+					<button class="mailing__btn">
+						Подписаться
+					</button>
+				</form>
+			</div>
+			<div class="footer__inner">
+				<ul class="footer__list footer__list--1">
+					<li class="footer__list-title">
+						Новости
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Обновления
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Экспресс
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Politics
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Solar Eclipse
+						</a>
+					</li>
+				</ul>
+				<ul class="footer__list footer__list--2">
+					<li class="footer__list-title">
+						Статьи
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							HTML
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							CSS
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							JavaScript
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Web Design
+						</a>
+					</li>
+				</ul>
+				<ul class="footer__list footer__list--3">
+					<li class="footer__list-title">
+						Видеоуроки
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Скринкасты
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Уроки
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Вебинары
+						</a>
+					</li>
+				</ul>
+				<ul class="footer__list footer__list--4">
+					<li class="footer__list-title">
+						Курсы
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Платные интенсивы
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Бесплатные стримы
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Мастер-классы
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Менторство
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Буткемпы
+						</a>
+					</li>
+				</ul>
+				<ul class="footer__list footer__list--5">
+					<li class="footer__list-title">
+						Информация
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Политика данных
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Оферта сайта
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Реквизиты
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Контакты
+						</a>
+					</li>
+				</ul>
+				<ul class="footer__list footer__list--6">
+					<li class="footer__list-title">
+						Категории
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Популярное
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Горячее
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Подборки
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Мнения
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a class="footer__list-link" href="#">
+							Карьера
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__box">
+				<img class="footer__logo" src="images/footer-logo.svg" alt="footer logo">
+				<ul class="footer__menu">
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">
+							Контакты
+						</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">
+							Работа у нас
+						</a>
+					</li>
+					<li class="footer__menu-item">
+						<a class="footer__menu-link" href="#">
+							Реклама
+						</a>
+					</li>
+					<li class="footer__menu-item call-modal">
+						<a class="footer__menu-link" href="#" data-modal="#modal">
+							Обратная связь
+						</a>
+					</li>
+				</ul>
+				<div class="footer__social">
+					<a class="footer__social-item" href="https://ru-ru.facebook.com/" target="_blank">
+						<img class="footer__social-img" src="images/facebook.svg" alt="facebook-icon">
+					</a>
+					<a class="footer__social-item" target="_blank" href="https://twitter.com/?lang=ru">
+						<img class="footer__social-img" src="images/twitter.svg" alt="twitter-icon">
+					</a>
+					<a class="footer__social-item" href="https://www.youtube.com/" target="_blank">
+						<img class="footer__social-img" src="images/youtube.svg" alt="youtube-icon">
+					</a>
+					<a class="footer__social-item" href="https://www.instagram.com/" target="_blank">
+						<img class="footer__social-img" src="images/instagram.svg" alt="instagram-icon">
+					</a>
+				</div>
+			</div>
+			<div class="footer__copy">
+				<p class="footer__copy-text">
+					Universal — это онлайн издание, в котором мы публикуем полезные материалы о веб разработке: статьи,
+					новости, видеоуроки, подборки, ссылки и курсы. Материалы на сайте бесплатны, но при копировании,
+					указывайте ссылку.
+				</p>
+				<p class="footer__copy-text">
+					© 2020 Universal Magazine
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- MODAL -->
+	<div class="modal" id="modal">
+		<div class="overlay"></div>
+		<div class="modal__wrapper">
+			<img class="modal__close" src="images/close.svg" alt="close" data-close>
+			<div class="modal__content">
+				<h4 class="modal__title">
+					Обратная связь
+				</h4>
+				<form class="modal__form">
+					<label class="modal__label">
+						Тема
+						<div class="modal__select-wrapper">
+							<select class="modal__select" name="topic-category" id="">
+								<option selected disabled>Выберите тему</option>
+								<option value="1">Тема 1</option>
+								<option value="2">Тема 2</option>
+								<option value="3">Тема 3</option>
+							</select>
+						</div>
+					</label>
+					<label class="modal__label">
+						Сообщение
+						<textarea class="modal__textarea"></textarea>
+					</label>
+					<label class="modal__label">
+						Email
+						<input class="modal__email" type="email">
+					</label>
+					<label class="modal__label">
+						<input class="modal__checkbox" type="checkbox">
+						<span class="modal__checkbox-style"></span>
+						<span class="modal__checkbox-name">Согласен с обработкой данных</span>
+					</label>
+					<button class="modal__btn">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.min.js"></script>
+</body>
+
+</html>
